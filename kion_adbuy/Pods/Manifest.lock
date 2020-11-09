@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (5.2.2)
+  - IQKeyboardManager (6.5.6)
+  - RxSwift (5.1.1)
+  - ViewAnimator (2.7.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - IQKeyboardManager
+  - RxSwift
+  - ViewAnimator
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - IQKeyboardManager
+    - RxSwift
+    - ViewAnimator
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  ViewAnimator: 5af1c6f3b310f012bf081259c43717aa54fbae73
+
+PODFILE CHECKSUM: 1ac6f08c6805f483fccdf2c5eb46060cf669107a
+
+COCOAPODS: 1.10.0.beta.1

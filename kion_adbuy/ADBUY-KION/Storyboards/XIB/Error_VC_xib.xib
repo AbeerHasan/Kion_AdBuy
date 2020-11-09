@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Error_VC_xib" customModule="ADBUY_KION" customModuleProvider="target">
+            <connections>
+                <outlet property="errorMessageLabel" destination="uQn-na-64y" id="mx6-SW-LuN"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="redraw" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="9X8-tM-Fpq" customClass="RoundedView" customModule="ADBUY_KION" customModuleProvider="target">
+                    <rect key="frame" x="10" y="64" width="394" height="55"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" contentMode="center" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uQn-na-64y" customClass="CustomLabelFontSize" customModule="ADBUY_KION" customModuleProvider="target">
+                            <rect key="frame" x="10" y="0.0" width="374" height="55"/>
+                            <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="15"/>
+                            <color key="textColor" red="0.97254901959999995" green="0.41176470590000003" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="15"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcR-7Z-e7b">
+                            <rect key="frame" x="369" y="5" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="20" id="Coi-pp-hg5"/>
+                                <constraint firstAttribute="width" secondItem="mcR-7Z-e7b" secondAttribute="height" id="PLa-e8-Yhp"/>
+                            </constraints>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="mcR-7Z-e7b" secondAttribute="trailing" constant="5" id="07t-c3-Udq"/>
+                        <constraint firstAttribute="trailing" secondItem="uQn-na-64y" secondAttribute="trailing" constant="10" id="BV8-tn-C2J"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="55" id="BkI-hX-VKq"/>
+                        <constraint firstItem="uQn-na-64y" firstAttribute="top" secondItem="9X8-tM-Fpq" secondAttribute="top" id="KNk-zK-p3p"/>
+                        <constraint firstAttribute="bottom" secondItem="uQn-na-64y" secondAttribute="bottom" id="j2x-UD-1JB"/>
+                        <constraint firstItem="mcR-7Z-e7b" firstAttribute="top" secondItem="9X8-tM-Fpq" secondAttribute="top" constant="5" id="ymZ-LA-uLO"/>
+                        <constraint firstItem="uQn-na-64y" firstAttribute="leading" secondItem="9X8-tM-Fpq" secondAttribute="leading" constant="10" id="znS-Ni-zgV"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.29421795685279184" green="0.12770261995625001" blue="0.091686510980641289" alpha="0.14999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="9X8-tM-Fpq" secondAttribute="trailing" constant="10" id="LCA-Xz-MAy"/>
+                <constraint firstItem="9X8-tM-Fpq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="egk-fw-UB7"/>
+                <constraint firstItem="Jpc-ij-k99" firstAttribute="top" secondItem="9X8-tM-Fpq" secondAttribute="top" constant="-20" id="t2R-aC-x6A"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Jpc-ij-k99"/>
+            <point key="canvasLocation" x="89.855072463768124" y="-439.95535714285711"/>
+        </view>
+    </objects>
+</document>

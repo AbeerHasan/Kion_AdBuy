@@ -1,0 +1,6 @@
+framework module Pods_ADBUY_KION_ADBUY_KIONUITests {
+  umbrella header "Pods-ADBUY-KION-ADBUY-KIONUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
